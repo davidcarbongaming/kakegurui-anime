@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700,700i);
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,600&subset=japanese');
+/* html5doctor.com Reset Stylesheet v1.6.1
+Last Updated: 2010-09-17 Author: Richard Clark - http://richclarkdesign.com Twitter: @rich_clark */
+body{font-family:"メイリオ",Meiryo,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;}a,hr{padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,hr,menu,nav,section{display:block}abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}ins,mark{color:#000;background-color:#ff9}ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;vertical-align:baseline;background:0 0}ins{text-decoration:none}mark{font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}input,select{vertical-align:middle}img{vertical-align:bottom}
+
+/*----=======[[Default]]=======----*/
+
+html{
+    font-size: 62.5% !important;   
+}
+::selection {
+    background: #E60012;
+    color: #fff;
+}
+::-moz-selection {
+    background: #E60012;
+    color: #fff;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-height: 999999px;
+    outline:none;
+}
+*:focus{
+    outline: none;
+}
+.cf:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.hd {
+	display:block;
+	width:0;
+	height:0;
+	overflow:hidden;
+}
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
